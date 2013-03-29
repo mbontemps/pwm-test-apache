@@ -1,2 +1,2 @@
 steps:
-    - load an apache vhost from config "{{ build.get('app.apache.vhost_config') }}" to path "/tmp/apache.conf"
+    - load an apache vhost "{{ build.get('app.apache.vhost_config') }}" to path "/tmp/apache.conf"
