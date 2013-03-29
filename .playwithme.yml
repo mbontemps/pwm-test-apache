@@ -1,0 +1,2 @@
+steps:
+    - load an apache vhost from config "{{ project.get('app.apache.vhost_config') }}" to path "/tmp/apache.conf"
