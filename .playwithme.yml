@@ -1,2 +1,2 @@
 steps:
-    - load an apache vhost @Property('app.apache.vhost_config') to path "/tmp/apache.conf"
+    - load an apache vhost from @Property('app.apache.vhost_config') to path "/tmp/apache.conf"
